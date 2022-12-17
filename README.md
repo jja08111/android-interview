@@ -1,16 +1,37 @@
 # android-interview
 
-안드로이드 개발자 면접 대비
+안드로이드 개발자 면접 대비.
+
+# Android
+
+[android-interview-questions](https://github.com/amitshekhariitbhu/android-interview-questions) repo를 참고함.
 
 <details>
-  <summary>View Lifecycle</summary>
+  <summary>4대 컴포넌트에 대해 설명해주세요.</summary>
 
-    예제입니다.
+TODO
 
-    1. on
-    2. on
-    3. on
-    4. on
+</details>
+
+# Kotlin
+
+# Computer Architecture
+
+# Operating System
+
+<details>
+  <summary>프로세스와 스레드의 차이점을 설명해주세요.</summary>
+
+TODO
+
+</details>
+
+# Network
+
+<details>
+  <summary>REST API에 대해 설명해주세요.</summary>
+
+TODO
 
 </details>
 
@@ -22,3 +43,4 @@
   - 3개 중 2개를 무작위 선택해서 면접하듯이 질문
   - 1개는 지난 번에 공부했던 주제 중 아무거나 선정하여 질문
   - 답변이 부족한 경우 다음 주차에 다시 공부
+  - 종료 후 다음 주에 진행할 주제 선정
