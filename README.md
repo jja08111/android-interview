@@ -43,7 +43,7 @@ TODO
 
 https://dev-coco.tistory.com/97
 
-먼저 REST에 대해 설명드리겠습니다. REST는 Representational State Transfer의 약자로, 자원을 이름으로 구분해 해당 자원의 상태를 주고 받는 모든 것을 의미합니다.
+REST는 Representational State Transfer의 약자로, 자원을 이름으로 구분해 해당 자원의 상태를 주고 받는 모든 것을 의미합니다.
 URI는 정보의 자원만 표현해야 하며, 자원의 행위는 HTTP Method에 명시해야 합니다.
 
 **URI vs URL**
