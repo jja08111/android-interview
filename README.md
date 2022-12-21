@@ -39,9 +39,28 @@ TODO
 # Network
 
 <details>
-  <summary>REST API에 대해 설명해주세요.</summary>
+  <summary>REST에 대해 설명해주세요.</summary>
 
-TODO
+https://dev-coco.tistory.com/97
+
+먼저 REST에 대해 설명드리겠습니다. REST는 Representational State Transfer의 약자로, 자원을 이름으로 구분해 해당 자원의 상태를 주고 받는 모든 것을 의미합니다.
+URI는 정보의 자원만 표현해야 하며, 자원의 행위는 HTTP Method에 명시해야 합니다.
+
+**URI vs URL**
+
+https://inpa.tistory.com/entry/WEB-🌐-URL-URI-차이
+
+> URI는 식별하고, URL위치를 가르킵니다.
+
+- URI: 특정 리소스를 식별하는 통합 자원 식별자를 의미합니다.
+- URL: 컴퓨터 네트워크 상에서 리소스가 어디 있는지 알려주기 위한 규약입니다. URI에 포함됩니다.
+
+**HTTP**
+
+https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
+
+Hypertext Transfer Protocol의 약자로 인터넷 상에서 데이터를 주고 받기 위한 서버/클라이언트 모델을 따르는 프로토콜입니다.
+Application 계층의 프로토콜로 [TCP/IP](https://www.ibm.com/docs/ko/aix/7.1?topic=management-transmission-control-protocolinternet-protocol) 위에서 작동합니다. 클라이언트가 requst를 보내면 서버는 요청을 처리하여 response를 보낸다. Connectionless, Stateless 방식으로 동작합니다.
 
 </details>
 
