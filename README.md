@@ -23,7 +23,28 @@ Broadcast Receiver는 시스템이 정기적인 사용자 플로우 밖에서 �
 
 </details>
 
+<details>
+  <summary>MVC, MVP, MVVM, MVI에 대해 비교해주세요.</summary>
+  
+TODO
+  
+</details>
+
 # Kotlin
+
+<details>
+  <summary>sealed class와 data class에 대해 비교해주세요.</summary>
+  
+TODO
+  
+</details>
+
+<details>
+  <summary>스코프 함수에 대해 설명해주세요.</summary>
+  
+TODO
+  
+</details>
 
 # Computer Architecture
 
