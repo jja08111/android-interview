@@ -33,7 +33,7 @@ TODO
 # Kotlin
 
 <details>
-  <summary>sealed class와 data class에 대해 비교해주세요.</summary>
+  <summary>sealed class와 enum class에 대해 비교해주세요.</summary>
   
 TODO
   
