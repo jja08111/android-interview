@@ -52,15 +52,30 @@ Model이 불변 객체이기 때문에 스레드에 안정적입니다. 하지�
 <details>
   <summary>sealed class와 enum class에 대해 비교해주세요.</summary>
   
-TODO
-  
+sealed class에 상속된 sub class들이 무엇이 있는 지 컴파일 타임에 알 수 있는 것이 가장 큰 특징입니다. 
+enum class와 다르게 sub class를 인스턴스화 할 수 있으며 동일한 패키지 내에서 상속이 가능합니다. 
+enum class는 각 값들이 상수이며 이는 인스턴스화 할 수 없고 상속을 할 수 없다는 것을 의미합니다.
+
 </details>
 
 <details>
   <summary>스코프 함수에 대해 설명해주세요.</summary>
   
-TODO
-  
+kotlin에는 스코프 함수가 존재하며 `let`, `with`, `run`, `apply`, `also`가 있습니다.
+
+`let`은 extension 함수이며 주로 nullable 값을 non-null일 때만 특정 작업을 수행하기 위해 사용됩니다. 그리고 콜 체인의 결과를 가지고 함수를 호출할 때 이용됩니다.
+
+`with`는 extension 함수가 아니며 주로 람다 결과를 반환하지 않고 특정 오브젝트로 함수들을 여러번 실행 할 때 사용됩니다.
+
+`run`은 extension 함수와 일반 함수가 존재합니다. 주로 객체 초기화와 결과 값 연산이 람다 내에서 동시에 이루어 질 때 사용됩니다.
+non-extension 함수의 경우 스코프 안에 변수를 두어 특정 연산 값을 반환할 때 유용합니다.
+
+`apply`는 extension 함수이며 주로 객체 생성 후 곧바로 초기값을 설정하는 작업을 수행할 때 사용됩니다.
+
+`also`는 extension 함수이며 주로 객체의 속성이나 메서드에 접근할 때 보다는 객체를 사용하는 작업이 필요할 때 쓰입니다. 또한 외부의 `this` 레퍼런스를 가리지 않고 싶을 때 사용됩니다.
+
+`apply`와 `also`는 객체 자신을 반환하며, `run`, `with`, `let`은 람다의 결과를 반환합니다.
+
 </details>
 
 # Computer Architecture
