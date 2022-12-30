@@ -26,8 +26,25 @@ Broadcast Receiver는 시스템이 정기적인 사용자 플로우 밖에서 �
 <details>
   <summary>MVC, MVP, MVVM, MVI에 대해 비교해주세요.</summary>
   
-TODO
-  
+MVC는 Model, View, Controller로 구성됩니다. Controller가 사용자의 입력을 받아 Model에서 정보를 얻어와 View를 갱신합니다. View는 Model에서 정보를 얻어와 자신을 갱신합니다. 
+MVC 패턴은 초기 개발속도가 빠르다는 장점이 있습니다. 하지만 앱의 크기가 커지면 Controller가 비대해져 유지보수에 좋지 않습니다. 
+또한 View와 Contoller가 강하게 결합되어 Controller를 테스트하기 어렵습니다.
+
+MVP는 앞선 MVC의 문제를 해결한 패턴입니다. MVP는 Model, View, Presenter로 구성됩니다. Presenter는 ViewInterface를 가지고 있으며 View는 ViewInterface를 구현합니다.
+때문에 Presenter가 View에 대한 의존성을 띄지 않는 구조입니다. 그렇기 때문에 Presenter를 테스트 하기 좋으며 코드가 적절히 분리되어 관리하기 좋습니다.
+하지만 View와 Presenter가 1대1 관계이기 때문에 비슷한 로직을 가진 화면이 이미 존재해도 계속해서 Presenter를 만들어야 하는 단점이 있습니다.
+
+MVVM은 앞선 MVP의 View와 Presenter의 1대1 구조 단점을 개선한 패턴입니다. MVVM은 Model, View, ViewModel로 구성됩니다.
+ViewModel은 Presenter와 다르게 observable 깂를 가지고 있습니다. 이 값을 View에서 구독하여 변화를 관찰합니다.
+때문에 MVVM 패턴은 ViewModel과 View의 관계는 1:N이 되어 로직을 재활용 할 수 있는 장점이 있습니다.
+하지만 좋지 않은 구조로 설계하면 상태 값이 많아졌을 때 상태관리가 어려워 질 수 있습니다. 또한 부수효과 관리가 어렵습니다.
+
+MVI 패턴은 앞선 MVVM의 상태관리와 부수효과 문제를 개선합니다. MVI는 Model, View, Intent로 구성됩니다.
+사용자가 Intent를 발생시켜 불변 Model을 다른 값으로 복사하고, 이 복사된 Model은 View에 상태를 제공합니다.
+또한 MVI는 SideEffect를 따로 관리합니다. Background 작업, API 통신, I/O 작업들이 주로 포함됩니다.
+MVI는 상태가 한 곳에서 관리되기 때문에 상태가 많아져도 충돌이 일어나지 않습니다. 단방향 구조이기 때문에 흐름 관리가 쉽습니다.
+Model이 불변 객체이기 때문에 스레드에 안정적입니다. 하지만 다른 패턴에 비해 러닝 커브가 높은 것이 단점입니다.
+
 </details>
 
 # Kotlin
