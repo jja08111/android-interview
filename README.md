@@ -47,6 +47,20 @@ Model이 불변 객체이기 때문에 스레드에 안정적입니다. 하지�
 
 </details>
 
+<details>
+  <summary>클린 아키텍처를 사용하셨다고 되어있는데 왜 사용하셨나요?</summary>
+
+TODO
+
+</details>
+
+<details>
+  <summary>의존성 주입에 대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Kotlin
 
 <details>
@@ -92,6 +106,13 @@ https://jja08111.github.io/os/proccess-vs-thread/
 
 </details>
 
+<details>
+  <summary>데드락에 대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Network
 
 <details>
@@ -117,6 +138,13 @@ https://developer.mozilla.org/ko/docs/Web/HTTP/Overview
 
 Hypertext Transfer Protocol의 약자로 인터넷 상에서 데이터를 주고 받기 위한 서버/클라이언트 모델을 따르는 프로토콜입니다.
 Application 계층의 프로토콜로 [TCP/IP](https://www.ibm.com/docs/ko/aix/7.1?topic=management-transmission-control-protocolinternet-protocol) 위에서 작동합니다. 클라이언트가 requst를 보내면 서버는 요청을 처리하여 response를 보낸다. Connectionless, Stateless 방식으로 동작합니다.
+
+</details>
+
+<details>
+  <summary>TCP와 UDP를 비교해주세요.</summary>
+
+TODO
 
 </details>
 
