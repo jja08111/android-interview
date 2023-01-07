@@ -92,6 +92,13 @@ Dagger, Hilt를 사용한 이유는 컴파일 타임에 의존성이 주입되�
 
 </details>
 
+<details>
+  <summary>Activity와 Fragment의 생명주기를 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Kotlin
 
 <details>
@@ -123,7 +130,21 @@ non-extension 함수의 경우 스코프 안에 변수를 두어 특정 연산 �
 
 </details>
 
+<details>
+  <summary>Java의 static과 Kotlin의 object 차이를 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Computer Architecture
+
+<details>
+  <summary>CPU의 작동원리를 설명해주세요.</summary>
+
+TODO
+
+</details>
 
 # Operating System
 
@@ -199,6 +220,13 @@ Application 계층의 프로토콜로 [TCP/IP](https://www.ibm.com/docs/ko/aix/7
 
 <details>
   <summary>TCP와 UDP를 비교해주세요.</summary>
+
+https://jja08111.github.io/network/tcp-vs-udp/
+
+</details>
+
+<details>
+  <summary>브라우저에 google.com을 입력했을 일어나는 일들을 설명해주세요.</summary>
 
 TODO
 
