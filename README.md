@@ -226,7 +226,7 @@ https://jja08111.github.io/network/tcp-vs-udp/
 </details>
 
 <details>
-  <summary>브라우저에 google.com을 입력했을 일어나는 일들을 설명해주세요.</summary>
+  <summary>브라우저에 google.com을 입력 했을 때 일어나는 일들을 설명해주세요.</summary>
 
 TODO
 
