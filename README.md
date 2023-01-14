@@ -48,7 +48,7 @@ Model이 불변 객체이기 때문에 스레드에 안정적입니다. 하지�
 </details>
 
 <details>
-  <summary>클린 아키텍처를 사용하셨다고 되어있는데 왜 사용하셨나요?</summary>
+  <summary>클린 아키텍처를 사용해보셨는데 사용하신 이유가 있나요?</summary>
 
 https://jja08111.github.io/android/android-clean-architecture/
 https://meetup.nhncloud.com/posts/345
