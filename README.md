@@ -153,7 +153,17 @@ non-extension 함수의 경우 스코프 안에 변수를 두어 특정 연산 �
 <details>
   <summary>Java의 static과 Kotlin의 object 차이를 설명해주세요.</summary>
 
-TODO
+Java의 static 키워드로 정적 메소드 혹은 정적 변수를 만들 수 있습니다. 이들은 `final` 상수를 제외하고 클래스가 로딩되는 시점에 메모리에 적재됩니다. 때문에 프로그램 종료시까지 메모리에 할당된 채로 존재하게 됩니다.
+
+이와 다르게 Kotlin의 object는 클래스를 싱글톤 형태로 만듭니다. 이는 실제 사용될 때 초기화가 되어 메모리에 적재되며 Java의 static과 다릅니다. 단, `const val`로 선언한 상수, `@JVMStatic` 혹은 `@JVMField`의 어노테이션이 붙은 변수 및 함수들은 Java의 static과 같은 모습을 갖습니다.
+
+> 그렇다면 object와 companion object의 차이점은 무엇인가요?
+
+companion object는 클래스 내부에 존재하는 싱글톤 객체입니다. Java로 변환된 코드를 보면 해당 객체 내부에 Companion이라는 정적 클래스로 되어있는 것을 확인할 수 있습니다.
+
+https://steady-coding.tistory.com/593  
+https://velog.io/@skyepodium/클래스는-언제-로딩되고-초기화되는가  
+https://nuritech.tistory.com/18
 
 </details>
 
