@@ -264,7 +264,7 @@ https://jja08111.github.io/network/tcp-vs-udp/
 <details>
   <summary>브라우저에 google.com을 입력 했을 때 일어나는 일들을 설명해주세요.</summary>
 
-TODO
+https://jja08111.github.io/network/what-happened-when-type-google-com.md/
 
 </details>
 
