@@ -121,7 +121,7 @@ Dagger, Hilt를 사용한 이유는 컴파일 타임에 의존성이 주입되�
 <details>
   <summary>Fragment의 생명주기를 설명해주세요.</summary>
 
-TODO
+https://jja08111.github.io/android/fragment-lifecycle/
 
 </details>
 
