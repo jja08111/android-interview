@@ -173,6 +173,13 @@ https://nuritech.tistory.com/18
 
 </details>
 
+<details>
+  <summary>Coroutine에 대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Computer Architecture
 
 <details>
@@ -229,7 +236,7 @@ https://jja08111.github.io/os/proccess-vs-thread/
 # Network
 
 <details>
-  <summary>REST에 대해 설명해주세요.</summary>
+  <summary>RESTful API에 대해 설명해주세요.</summary>
 
 https://dev-coco.tistory.com/97
 
@@ -265,6 +272,13 @@ https://jja08111.github.io/network/tcp-vs-udp/
   <summary>브라우저에 google.com을 입력 했을 때 일어나는 일들을 설명해주세요.</summary>
 
 https://jja08111.github.io/network/what-happened-when-type-google-com.md/
+
+</details>
+
+<details>
+  <summary>HTTP에 대해 설명해주세요.</summary>
+
+TODO
 
 </details>
 
