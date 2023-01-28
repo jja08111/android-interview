@@ -7,6 +7,16 @@
 [android-interview-questions](https://github.com/amitshekhariitbhu/android-interview-questions) repo를 참고함.
 
 <details>
+  <summary>Context에 대해 설명해주세요.</summary>
+  
+</details>
+
+<details>
+  <summary>Intent에 대해 설명해주세요.</summary>
+  
+</details>
+
+<details>
   <summary>4대 컴포넌트에 대해 설명해주세요.</summary>
 
 https://developer.android.com/guide/components/fundamentals#Components
