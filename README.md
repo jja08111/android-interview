@@ -9,6 +9,17 @@
 <details>
   <summary>Context에 대해 설명해주세요.</summary>
   
+Context는 단어 그대로 맥락을 의미하며, 어플리케이션 혹은 컴포넌트의 현재 상태를 나타냅니다. 
+Context를 통하여 어플리케이션 리소스들과 클래스들을 접근할 수 있으며, 엑티비티를 실행하는 작업을 할 수 있습니다.
+
+Activity, Service, Application은 모두 context를 상속하였습니다. 따라서 context를 잘못 사용하는 경우 메모리 누수로 이어질 수 있습니다.
+
+Context중에 Application context와 Activity context가 대표적인데요, Application context는 앱과 관련되어있고 앱이 살아있는 동안 변경되지 않습니다. 따라서 싱글톤 객체에서 context가 필요한 경우 이것을 이용하면 됩니다.
+
+Activity context는 뷰와 관련이 많은 context입니다. 따라서 activity의 생명주기와 연관이 됩니다. GUI 작업을 위한 context는 이것으로만 사용 가능합니다. 만약 싱글톤 객체에서 activity context를 이용한다면 GC에게 수거되지 않아 메모리 누수가 발생합니다.
+
+대부분의 경우 해당 컴포넌트의 context를 이용하면 되고, 앱 전체 수명주기와 연관있거나 싱글톤 객체에서는 application context를 이용하면 됩니다.
+
 </details>
 
 <details>
