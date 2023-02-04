@@ -205,7 +205,7 @@ https://nuritech.tistory.com/18
 <details>
   <summary>Coroutine에 대해 설명해주세요.</summary>
 
-TODO
+https://jja08111.github.io/kotlin/kotlin-coroutine/
 
 </details>
 
@@ -214,7 +214,7 @@ TODO
 <details>
   <summary>CPU의 작동원리를 설명해주세요.</summary>
 
-TODO
+https://jja08111.github.io/computer_architecture/what-does-cpu-do/
 
 </details>
 
