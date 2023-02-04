@@ -209,6 +209,13 @@ https://jja08111.github.io/kotlin/kotlin-coroutine/
 
 </details>
 
+<details>
+  <summary>GC에 대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # Computer Architecture
 
 <details>
