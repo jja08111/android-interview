@@ -287,6 +287,11 @@ https://jja08111.github.io/os/proccess-vs-thread/
 
 </details>
 
+<details>
+  <summary>페이징 메모리 기법에 대해 설명해주세요.</summary>
+  TODO
+</details>
+
 # Network
 
 <details>
