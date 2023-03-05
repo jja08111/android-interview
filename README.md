@@ -408,6 +408,22 @@ TODO
 
 </details>
 
+# Database
+
+<details>
+  <summary>RDBMS와 NoSQL을 비교해주세요.</summary>
+
+TODO
+
+</details>
+
+<details>
+  <summary>정규화에대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # 진행 방식
 
 - 일주일 동안 같은 주제로 진행하는 사람과 각자 공부
