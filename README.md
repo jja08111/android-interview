@@ -424,6 +424,22 @@ TODO
 
 </details>
 
+# Data Structure
+
+<details>
+  <summary>Hash에 대해 설명해주세요.</summary>
+
+TODO
+
+</details>
+
+<details>
+  <summary>Array, ArrayList, LinkedList의 차이를 설명해주세요.</summary>
+
+TODO
+
+</details>
+
 # 진행 방식
 
 - 일주일 동안 같은 주제로 진행하는 사람과 각자 공부
